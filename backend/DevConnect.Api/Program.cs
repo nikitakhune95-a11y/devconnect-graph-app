@@ -52,15 +52,12 @@ var app = builder.Build();
 // including CognoDB connectivity issues — this is what makes DB-down graceful.
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "DevConnect Graph API v1");
-    });
-}
+app.UseSwagger();
 
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "DevConnect Graph API v1");
+});
 app.UseHttpsRedirection();
 app.UseCors("FrontendPolicy");
 app.UseAuthorization();
