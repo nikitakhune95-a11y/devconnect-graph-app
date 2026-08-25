@@ -19,8 +19,11 @@ builder.Services.AddScoped<ProjectQueries>();
 builder.Services.AddScoped<RecommendationQueries>();
 
 // -------------------- CORS (so the React frontend on a different port/origin can call this API) --------------------
-var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>()
-                      ?? new[] { "http://localhost:3000" };
+var allowedOrigins = new[]
+{
+    "http://localhost:3000",
+    "https://devconnect-graph-app-production-d596.up.railway.app"
+};
 
 builder.Services.AddCors(options =>
 {
