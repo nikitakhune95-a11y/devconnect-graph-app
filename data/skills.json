@@ -1,0 +1,17 @@
+[
+  { "id": "skill001", "name": "C#",              "category": "Backend" },
+  { "id": "skill002", "name": "ASP.NET Core",    "category": "Backend" },
+  { "id": "skill003", "name": "Entity Framework","category": "Backend" },
+  { "id": "skill004", "name": "SQL Server",      "category": "Database" },
+  { "id": "skill005", "name": "React",           "category": "Frontend" },
+  { "id": "skill006", "name": "JavaScript",      "category": "Frontend" },
+  { "id": "skill007", "name": "Python",          "category": "Backend" },
+  { "id": "skill008", "name": "Node.js",         "category": "Backend" },
+  { "id": "skill009", "name": "Docker",          "category": "DevOps" },
+  { "id": "skill010", "name": "Azure",           "category": "DevOps" },
+  { "id": "skill011", "name": "Neo4j",           "category": "Database" },
+  { "id": "skill012", "name": "REST APIs",       "category": "Backend" },
+  { "id": "skill013", "name": "MongoDB",         "category": "Database" },
+  { "id": "skill014", "name": "TypeScript",      "category": "Frontend" },
+  { "id": "skill015", "name": "CI/CD",           "category": "DevOps" }
+]

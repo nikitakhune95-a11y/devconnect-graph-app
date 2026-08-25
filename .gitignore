@@ -1,0 +1,20 @@
+# Environment secrets — never commit these
+.env
+**/.env
+!**/.env.example
+
+# .NET
+bin/
+obj/
+*.user
+.vs/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

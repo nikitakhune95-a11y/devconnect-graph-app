@@ -1,0 +1,89 @@
+[
+  {
+    "id": "dev001",
+    "name": "Nikita Khune",
+    "email": "nikita@devconnect.io",
+    "experienceYears": 4,
+    "location": "Pune, India",
+    "bio": ".NET Full Stack Developer focused on backend systems and REST APIs.",
+    "skills": [
+      { "skillId": "skill001", "proficiency": "Expert" },
+      { "skillId": "skill002", "proficiency": "Expert" },
+      { "skillId": "skill003", "proficiency": "Advanced" },
+      { "skillId": "skill004", "proficiency": "Advanced" },
+      { "skillId": "skill012", "proficiency": "Expert" },
+      { "skillId": "skill005", "proficiency": "Intermediate" }
+    ]
+  },
+  {
+    "id": "dev002",
+    "name": "Aarav Sharma",
+    "email": "aarav@devconnect.io",
+    "experienceYears": 6,
+    "location": "Bengaluru, India",
+    "bio": "Backend engineer specializing in distributed systems and databases.",
+    "skills": [
+      { "skillId": "skill007", "proficiency": "Expert" },
+      { "skillId": "skill008", "proficiency": "Advanced" },
+      { "skillId": "skill011", "proficiency": "Advanced" },
+      { "skillId": "skill013", "proficiency": "Intermediate" },
+      { "skillId": "skill009", "proficiency": "Advanced" }
+    ]
+  },
+  {
+    "id": "dev003",
+    "name": "Priya Deshmukh",
+    "email": "priya@devconnect.io",
+    "experienceYears": 3,
+    "location": "Mumbai, India",
+    "bio": "Frontend developer with a passion for design systems.",
+    "skills": [
+      { "skillId": "skill005", "proficiency": "Expert" },
+      { "skillId": "skill006", "proficiency": "Expert" },
+      { "skillId": "skill014", "proficiency": "Advanced" },
+      { "skillId": "skill012", "proficiency": "Intermediate" }
+    ]
+  },
+  {
+    "id": "dev004",
+    "name": "Rohan Mehta",
+    "email": "rohan@devconnect.io",
+    "experienceYears": 8,
+    "location": "Hyderabad, India",
+    "bio": "DevOps lead with cloud infrastructure expertise.",
+    "skills": [
+      { "skillId": "skill009", "proficiency": "Expert" },
+      { "skillId": "skill010", "proficiency": "Expert" },
+      { "skillId": "skill015", "proficiency": "Expert" },
+      { "skillId": "skill002", "proficiency": "Intermediate" }
+    ]
+  },
+  {
+    "id": "dev005",
+    "name": "Sneha Kulkarni",
+    "email": "sneha@devconnect.io",
+    "experienceYears": 5,
+    "location": "Pune, India",
+    "bio": "Full stack developer bridging backend APIs and React frontends.",
+    "skills": [
+      { "skillId": "skill001", "proficiency": "Advanced" },
+      { "skillId": "skill002", "proficiency": "Advanced" },
+      { "skillId": "skill005", "proficiency": "Advanced" },
+      { "skillId": "skill006", "proficiency": "Expert" },
+      { "skillId": "skill004", "proficiency": "Intermediate" }
+    ]
+  },
+  {
+    "id": "dev006",
+    "name": "Karan Patil",
+    "email": "karan@devconnect.io",
+    "experienceYears": 2,
+    "location": "Nagpur, India",
+    "bio": "Junior backend developer, growing in database design.",
+    "skills": [
+      { "skillId": "skill007", "proficiency": "Intermediate" },
+      { "skillId": "skill013", "proficiency": "Beginner" },
+      { "skillId": "skill011", "proficiency": "Beginner" }
+    ]
+  }
+]

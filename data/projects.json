@@ -1,0 +1,65 @@
+[
+  {
+    "id": "proj001",
+    "name": "FinPay Gateway",
+    "description": "Payment and transaction management platform with role-based access control.",
+    "status": "Completed",
+    "startDate": "2023-01-15",
+    "requiredSkills": ["skill001", "skill002", "skill003", "skill004", "skill012"],
+    "team": [
+      { "developerId": "dev001", "role": "Backend Developer" },
+      { "developerId": "dev005", "role": "Full Stack Developer" },
+      { "developerId": "dev004", "role": "DevOps Engineer" }
+    ]
+  },
+  {
+    "id": "proj002",
+    "name": "DevConnect Graph Explorer",
+    "description": "Internal tool to visualize developer-skill-project relationships using CognoDB.",
+    "status": "Active",
+    "startDate": "2026-06-01",
+    "requiredSkills": ["skill001", "skill002", "skill011", "skill005", "skill012"],
+    "team": [
+      { "developerId": "dev001", "role": "Backend Lead" },
+      { "developerId": "dev002", "role": "Graph DB Specialist" },
+      { "developerId": "dev003", "role": "Frontend Developer" }
+    ]
+  },
+  {
+    "id": "proj003",
+    "name": "Cloud Migration Suite",
+    "description": "Migrate legacy on-prem services to Azure with CI/CD pipelines.",
+    "status": "Active",
+    "startDate": "2025-11-10",
+    "requiredSkills": ["skill009", "skill010", "skill015", "skill002"],
+    "team": [
+      { "developerId": "dev004", "role": "DevOps Lead" },
+      { "developerId": "dev002", "role": "Backend Engineer" }
+    ]
+  },
+  {
+    "id": "proj004",
+    "name": "Analytics Dashboard",
+    "description": "Real-time analytics dashboard for business metrics.",
+    "status": "OnHold",
+    "startDate": "2024-08-20",
+    "requiredSkills": ["skill007", "skill013", "skill005", "skill006"],
+    "team": [
+      { "developerId": "dev003", "role": "Frontend Developer" },
+      { "developerId": "dev006", "role": "Backend Developer" }
+    ]
+  },
+  {
+    "id": "proj005",
+    "name": "Recommendation Engine",
+    "description": "Graph-based recommendation system for matching developers to projects.",
+    "status": "Active",
+    "startDate": "2026-03-05",
+    "requiredSkills": ["skill011", "skill007", "skill001", "skill012"],
+    "team": [
+      { "developerId": "dev001", "role": "Backend Developer" },
+      { "developerId": "dev002", "role": "Graph DB Specialist" },
+      { "developerId": "dev006", "role": "Backend Developer" }
+    ]
+  }
+]
