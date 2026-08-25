@@ -147,7 +147,19 @@ in the UI, not just the API.
 
 ## Screenshots
 
-*(see `docs/screenshots/`)*
+### Developers
+
+![Developers page](docs/screenshots/developers.png)
+
+### Projects
+
+![Projects page](docs/screenshots/projects.png)
+
+### Path Finder
+
+![Path Finder with result](docs/screenshots/path-finder-result.png)
+
+
 
 ## Demo
 
